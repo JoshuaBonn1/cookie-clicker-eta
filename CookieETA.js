@@ -1,7 +1,7 @@
 cookie_eta_mod = {
   init:function(){
     Game.registerHook('cps', function(cps){
-      console.log(cps)
+      alert(cps)
     })
   }
 }
